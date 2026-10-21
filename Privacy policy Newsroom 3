@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — NEWSROOM</title>
+  <meta name="description" content="Privacy Policy for the NEWSROOM mobile application in compliance with Google Play Store policies.">
+  <style>
+    :root {
+      --ink: #0B0B0C;
+      --ink-2: #26262B;
+      --ink-3: #3A3A41;
+      --muted: #6E6E76;
+      --muted-2: #8B8B93;
+      --line: #E5E3DF;
+      --line-2: #D3D0CA;
+      --paper: #FFFFFF;
+      --paper-2: #F7F6F3;
+      --paper-3: #EFEDE8;
+      --accent: #C8102E;
+      --accent-2: #9B0C23;
+      --accent-soft: #FDF2F4;
+      --live: #D92D20;
+      --serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      --maxw: 860px;
+      --shadow-1: 0 1px 2px rgba(11,11,12,.04), 0 8px 24px -14px rgba(11,11,12,.14);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--sans);
+      background-color: var(--paper-2);
+      color: var(--ink);
+      line-height: 1.7;
+      padding: 40px 20px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .container {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      padding: 48px;
+      box-shadow: var(--shadow-1);
+    }
+
+    header {
+      border-bottom: 2px solid var(--ink);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+
+    .brand {
+      font-family: var(--serif);
+      font-size: 32px;
+      font-weight: 900;
+      letter-spacing: 1.5px;
+      color: var(--ink);
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .tagline {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-family: var(--serif);
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--ink);
+      margin-bottom: 12px;
+      line-height: 1.3;
+    }
+
+    .meta-box {
+      background-color: var(--paper-3);
+      border-left: 3px solid var(--accent);
+      padding: 12px 16px;
+      font-size: 13px;
+      color: var(--ink-2);
+      margin-top: 16px;
+      border-radius: 2px;
+      overflow-wrap: break-word;
+    }
+
+    .meta-box p {
+      margin: 4px 0;
+      font-size: 13px;
+    }
+
+    h2 {
+      font-family: var(--serif);
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--ink);
+      margin-top: 36px;
+      margin-bottom: 14px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--line);
+      line-height: 1.35;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--ink-2);
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      color: var(--ink-2);
+      font-size: 15px;
+      margin-bottom: 16px;
+    }
+
+    ul, ol {
+      margin-left: 24px;
+      margin-bottom: 18px;
+      color: var(--ink-2);
+      font-size: 15px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    li > ul, li > ol {
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+
+    strong {
+      color: var(--ink);
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.9em;
+      background: var(--paper-3);
+      border: 1px solid var(--line);
+      border-radius: 3px;
+      padding: 1px 5px;
+      color: var(--ink-3);
+      overflow-wrap: break-word;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: underline;
+      overflow-wrap: break-word;
+    }
+
+    a:hover {
+      color: var(--accent-2);
+    }
+
+    a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    .highlight-card {
+      background: var(--accent-soft);
+      border: 1px solid var(--accent);
+      border-radius: 4px;
+      padding: 16px 20px;
+      margin: 24px 0;
+    }
+
+    .highlight-card h3 {
+      color: var(--accent-2);
+      margin-top: 0;
+    }
+
+    .highlight-card p {
+      color: var(--ink);
+      margin-bottom: 0;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+      font-size: 13px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    footer p {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 16px 10px;
+      }
+      .container {
+        padding: 24px 18px;
+      }
+      .brand {
+        font-size: 26px;
+      }
+      h1 {
+        font-size: 22px;
+      }
+      h2 {
+        font-size: 18px;
+      }
+      ul, ol {
+        margin-left: 18px;
+      }
+    }
+
+    @media print {
+      body {
+        background: #fff;
+        padding: 0;
+      }
+      .container {
+        box-shadow: none;
+        border: none;
+        padding: 0;
+        max-width: 100%;
+      }
+      a {
+        color: var(--ink);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <main class="container">
+    <header>
+      <div class="brand">NEWSROOM</div>
+      <div class="tagline">The world, clearly reported.</div>
+      <h1>Privacy Policy</h1>
+
+      <div class="meta-box">
+        <p><strong>Application:</strong> NEWSROOM</p>
+        <p><strong>Package Name:</strong> com.aistudio.newsroom.kxmpzq</p>
+        <p><strong>Developer / Organization:</strong> NEWSROOM Editorial / BhullarTech</p>
+        <p><strong>Contact Email:</strong> <a href="mailto:arbhullar046@gmail.com">arbhullar046@gmail.com</a></p>
+        <p><strong>Effective Date:</strong> October 18, 2026</p>
+      </div>
+    </header>
+
+    <section aria-labelledby="introduction">
+      <h2 id="introduction">1. Introduction</h2>
+      <p>
+        This Privacy Policy outlines how <strong>NEWSROOM</strong> ("we," "our," or "the App") collects, uses, maintains, and discloses information gathered from users ("User" or "you") of the NEWSROOM Android mobile application available on the Google Play Store.
+      </p>
+      <p>
+        We are committed to protecting your privacy and complying with applicable Google Play Developer Program policies. The App may use third-party services, including Google AdMob, to display advertisements. These services may collect and process certain device and usage information as described in this policy. We do not sell personal information ourselves.
+      </p>
+    </section>
+
+    <section aria-labelledby="information-we-collect">
+      <h2 id="information-we-collect">2. Information We Collect</h2>
+      <p>We collect limited information to provide, personalize, and improve your news delivery experience:</p>
+
+      <h3>A. Information You Voluntarily Provide</h3>
+      <ul>
+        <li>
+          <strong>Newsletter Subscription:</strong> When you subscribe to "The Daily Brief" or "Pakistan Morning Memo," you provide your email address. This is used solely to deliver verified editorial newsletters you have requested.
+        </li>
+        <li>
+          <strong>Followed Topics &amp; Preferences:</strong> Topics you follow (e.g., Pakistan, Diplomacy, Artificial Intelligence, Markets) and articles you bookmark for offline reading are saved locally on your device to personalize your feed.
+        </li>
+        <li>
+          <strong>Editorial CMS Inputs (If Authorized):</strong> Content, drafts, and dispatch data entered via the BhullarTech CMS editor are stored to publish updates to your local and synced newsroom streams.
+        </li>
+      </ul>
+
+      <h3>B. Automatically Collected Technical Information</h3>
+      <ul>
+        <li>
+          <strong>Device &amp; Network State:</strong> To deliver real-time news headlines, the App checks connectivity (<code>ACCESS_NETWORK_STATE</code> and <code>INTERNET</code>) to fetch latest feeds via encrypted HTTPS connections.
+        </li>
+        <li>
+          <strong>Diagnostic Data:</strong> The App and its third-party SDKs may process diagnostic and performance information, such as crash reports and app response data, to maintain reliability and prevent abuse. Information handled by advertising SDKs is described in the AdMob section below.
+        </li>
+      </ul>
+
+      <div class="highlight-card">
+        <h3>Zero Sensitive Device Access</h3>
+        <p>
+          NEWSROOM does <strong>NOT</strong> request or access sensitive device permissions such as exact GPS location, contacts, camera, microphone, device storage files, SMS, or phone state.
+        </p>
+      </div>
+    </section>
+
+    <section aria-labelledby="third-party-services">
+      <h2 id="third-party-services">3. Third-Party Services &amp; APIs</h2>
+      <p>The App integrates with reputable external services strictly to retrieve and display news content:</p>
+      <ul>
+        <li>
+          <strong>GNews API:</strong> Used to syndicate verified global top-headlines and regional Pakistani news dispatches via secure, encrypted REST calls.
+        </li>
+        <li>
+          <strong>Coil &amp; Image CDNs (Unsplash):</strong> Used to load high-resolution editorial photography and photojournalism accompanying dispatches. Images are cached locally on device memory to reduce bandwidth usage.
+        </li>
+      </ul>
+      <p>These third-party providers process information in accordance with their own privacy policies. Depending on the service and its configuration, a provider may receive technical information such as an IP address or device identifiers as part of a request. Please review the providers' policies for details.</p>
+    </section>
+
+    <section aria-labelledby="admob">
+      <h2 id="admob">4. Google AdMob and Advertising</h2>
+      <p>
+        NEWSROOM may use Google AdMob, a third-party advertising service provided by Google, to display ads in the App and help support its operation. When AdMob is integrated and active, Google and its partners may automatically collect or receive certain information from the App and your device to deliver, measure, limit, and improve advertising, and to detect fraud or abuse.
+      </p>
+      <p>Depending on your device, location, consent choices, and the advertising features enabled in the App, this information may include:</p>
+      <ul>
+        <li>IP address and general network information, which may be used to estimate a device's general location.</li>
+        <li>Device identifiers, including the Android Advertising ID where available and permitted.</li>
+        <li>Information about the App, ad impressions, ad views, clicks, and other interactions with advertisements.</li>
+        <li>Diagnostic, performance, and fraud-prevention information, including SDK and error data.</li>
+        <li>Other information processed by Google or its advertising partners as described in their applicable policies and settings.</li>
+      </ul>
+      <p>
+        <strong>How information is used:</strong> AdMob may use this information to provide contextual or personalized ads (where permitted and based on applicable consent and settings), measure ad performance, prevent invalid activity, and maintain and improve advertising services. The exact processing depends on the SDK version, configuration, your settings, and applicable law.
+      </p>
+      <p>
+        <strong>Personalized ads and consent:</strong> Ad personalization may be subject to your Google account and device settings, applicable law, and consent requirements. Where required, NEWSROOM will use an appropriate consent mechanism before allowing relevant data processing for advertising. You can also review or change ad personalization and privacy settings through your Google account and Android device settings. Resetting or deleting an advertising identifier may be available through Android settings, depending on your device and OS version.
+      </p>
+      <p>
+        <strong>Third-party processing:</strong> Google and its advertising partners process information under their own terms and privacy policies. Learn more in <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a> and <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener noreferrer">Google's information about how AdMob uses data</a>.
+      </p>
+      <p>
+        We do not control the independent data practices of Google or other advertising partners. We recommend reviewing their policies and your device's advertising settings to understand and manage available choices.
+      </p>
+    </section>
+
+    <section aria-labelledby="how-we-use">
+      <h2 id="how-we-use">5. How We Use Collected Information</h2>
+      <p>Collected information is used exclusively to:</p>
+      <ul>
+        <li>Fetch, render, and update global and Pakistani news articles, breaking tickers, and live timelines.</li>
+        <li>Deliver requested editorial newsletters ("The Daily Brief").</li>
+        <li>Remember your bookmarked articles and followed topics for offline reading.</li>
+        <li>Analyze aggregated reading trends and top-performing news desks inside the BhullarTech CMS analytics view.</li>
+        <li>Protect the application against malicious traffic or abuse.</li>
+        <li>Display and measure advertisements, and support ad security and fraud prevention through AdMob when the advertising SDK is enabled.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="data-storage">
+      <h2 id="data-storage">6. Data Storage, Security &amp; Retention</h2>
+      <p>
+        <strong>Encryption in Transit:</strong> All network communication between the App and external news syndication servers is conducted using industry-standard Transport Layer Security (TLS/HTTPS).
+      </p>
+      <p>
+        <strong>Local Device Storage:</strong> Your reading history, bookmarked articles, and topic selections are stored in private application storage on your device, unless a feature explicitly explains otherwise. These local items are not intentionally sent to AdMob by NEWSROOM; however, the advertising SDK may independently process technical information and ad interactions as described above.
+      </p>
+      <p>
+        <strong>Data Retention:</strong> Newsletter subscription emails are retained only for as long as you maintain an active subscription. You may unsubscribe or request removal at any time.
+      </p>
+    </section>
+
+    <section aria-labelledby="user-rights">
+      <h2 id="user-rights">7. User Rights &amp; Data Deletion Requests</h2>
+      <p>In compliance with international data protection standards and Google Play Console requirements, you have the right to:</p>
+      <ul>
+        <li><strong>Access &amp; Review:</strong> View all saved articles and followed topics directly within the "My News" tab.</li>
+        <li><strong>Clear Data:</strong> Clear your reading history and saved bookmarks directly in the App or by clearing App Data via Android System Settings.</li>
+        <li><strong>Account / Email Deletion:</strong> To request complete deletion of any submitted email addresses or newsletter subscriptions, please submit a deletion request to:
+          <br>
+          <a href="mailto:arbhullar046@gmail.com?subject=NEWSROOM%20Data%20Deletion%20Request">arbhullar046@gmail.com</a>
+        </li>
+      </ul>
+      <p>We process data deletion requests within 30 days without undue delay.</p>
+    </section>
+
+    <section aria-labelledby="childrens-privacy">
+      <h2 id="childrens-privacy">8. Children's Privacy</h2>
+      <p>
+        NEWSROOM is a general audience news application and does not knowingly collect personally identifiable information from children under the age of 13 (or under 16 in the European Economic Area). If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately, and we will promptly remove such information.
+      </p>
+    </section>
+
+    <section aria-labelledby="policy-updates">
+      <h2 id="policy-updates">9. Policy Updates</h2>
+      <p>
+        We may update our Privacy Policy periodically to reflect changes in legal requirements or app features. When updated, the "Effective Date" at the top of this document will be revised. We encourage users to check this page periodically. Continued use of the App signifies your acceptance of any revisions.
+      </p>
+    </section>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">10. Contact Information</h2>
+      <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your data, please contact:</p>
+      <div class="meta-box">
+        <p><strong>NEWSROOM Editorial Compliance &amp; BhullarTech Support</strong></p>
+        <p>Email: <a href="mailto:arbhullar046@gmail.com">arbhullar046@gmail.com</a></p>
+        <p>App Identifier: <code>com.aistudio.newsroom.kxmpzq</code></p>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 NEWSROOM. All rights reserved. The world, clearly reported.</p>
+    </footer>
+  </main>
+
+</body>
+</html>
